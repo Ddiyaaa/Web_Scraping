@@ -17,10 +17,33 @@ This project involves web scraping data from [Books to Scrape](http://books.tosc
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge)
 
 ---
+### ✨ Features
+Scrapes 1000 books from 50 pages using BeautifulSoup
 
-## 🛠️ Installation
+Extracts title, price, rating, availability
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/books-to-scrape-project.git
-   cd books-to-scrape-project
+Cleans and stores data in MySQL using mysql.connector
+
+Performs SQL queries for business insights
+
+Visualizes:
+
+Price distribution
+
+Rating frequency
+
+Book availability
+
+Category-based trends
+
+### 📈 Key Findings
+
+Majority of books are priced under £30
+
+Most books hold a 3-star rating
+
+Fiction and Nonfiction dominate the dataset
+
+Availability is generally balanced
+
+High-priced books are rare and often in limited stock
